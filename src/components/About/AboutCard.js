@@ -13,19 +13,8 @@ function AboutCard() {
             <br />I am a pursuing MCA in Computer Science From LPU.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Passionate about crafting innovative software solutions, I thrive on turning complex ideas into functional and user-friendly applications
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Outdoor Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Trading
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "HARD WORK BEATS TALENT WHEN TALENT DOESN'T WORK HARD.."{" "}

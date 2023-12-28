@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import myImg from "../../Assets/avatar.svg";
+import PortfolioImage from "../../Assets/PortfolioImage.JPG";
 import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
@@ -17,23 +17,23 @@ const Intro = () => {
                 <Col>
                     <Card style={{
                         backgroundColor: "#35175b",
-                        margin: "4rem 0rem 2rem 6rem",
+                        margin: "2rem 1rem 0rem 1rem",
                         opacity: "0.7",
-                        height: "20rem"
+                        height: "auto"
                     }}>
                         <Card.Body style={{ color: "white" }}>
                             <Card.Title style={{ color: "#cd5ff7", fontWeight: "bold", fontSize: "2rem" }}>Preface</Card.Title>
                             <Card.Text className='white text-md' style={{ fontSize: "1.5rem" }}>
                                 I fell in love with programming and I have at least learnt Something, I think.....<br />
                                 something more than Zero in<br />
-                                <b className="purple" style={{ fontSize: "1.5rem" }}> C++, Javascript, React, Recoil and PostgresSQL. </b>
+                                <b className="purple" style={{ fontSize: "1.5rem" }}>Javascript, React, Recoil, Redux and PostgresSQL.... </b>
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col md={3} xl={6} className="myAvtar">
-                    <Tilt style={{ marginTop: "-4rem" }}>
-                        <img src={myImg} className="img-fluid" alt="avatar" />
+                    <Tilt style={{ marginTop: "-1rem",width:"10rem",height:"10rem",borderRadius:"50%" }}>
+                        <img src={PortfolioImage} className="img-fluid" alt="avatar" style={{ marginTop: "9%",marginLeft:"67%",width:"10rem",height:"10rem",borderRadius:"50%" }}/>
                     </Tilt>
                 </Col>
                 <Row>
@@ -65,7 +65,7 @@ const Intro = () => {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.instagram.com/abhiabhidot"
+                                    href="https://www.instagram.com/dustyproffessor"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour home-social-icons"
